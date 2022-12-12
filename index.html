@@ -1,0 +1,52 @@
+*{
+    <!DOCTYPE html>
+<html>
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>popup design - easy tutorials </title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+<div class="container" >
+    <div class="intro">
+        <h2>Hey! Would you like to join CSI team.</h2>
+        <p> We are glad to have you on board!</p>
+        <button type="button" onclick="openPopup()">View Tutorial</button>
+        <button type="button" onclick="openPopup()">Randomise colors</button>
+
+    </div>
+    <div class="popup" id="popup">
+        <h2>Assistant webdev</h2>
+        <p>we are looking for potential candidates</p>
+        <button type="button" onclick="openComment()">Apply</button>
+    </div>
+</div>
+<div class="comment" id="comment">
+
+    <h2>kaam kardiya</h2>
+    <img src="cross.png" onclick="closeComment()">
+
+</div>
+
+<script>
+    let popup=document.getElementById("popup");
+    function openPopup(){
+    popup.classList.add("open-popup");}
+
+    let comment=document.getElementById("comment");
+    function openComment(){
+    comment.classList.add("open-comment");
+    }
+    function closeComment(){
+    comment.classList.remove("open-comment");
+   
+    }
+</script>
+
+
+
+</body>
+</html>
