@@ -1,5 +1,5 @@
 ## Project.github.io
-#link: https://dhaneshwaritendle.github.io/Project.github.io/
+# link: https://dhaneshwaritendle.github.io/Project.github.io/
 # CSI assignment to make a pop model 
 languages used:
 - html
